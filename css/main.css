@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.site {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.site-header {
+    min-height: 175px;
+    background-color: #325261;
+    font-family: Quicksand;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 325%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    position: relative;
+    flex: 0 1 auto;
+    width: 100%;
+}
+
+.site-body {
+    min-height: 100px;
+    background-color: #FFFFFF;
+    flex: 1 0 auto;
+    position: relative;
+}
+
+.body-col {
+    
+}
+
+.site-footer {
+    background-color: #325261;
+    flex: 0 1 50px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px;
+}
+
+.imp {
+    color: #fff;
+}
+
+nav ul {
+    background-color: #00283a;
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;   
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+    font-size: 200%
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+    font-family: El Messiri;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:hover {
+    background-color: #325261;
+}
+
+.handle {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-family: El Messiri;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    background: #004D40;
+    font-size: 200%;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        max-height: 0px;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        text-align: left;
+    }
+    .handle {
+        display: block;
+    }
+}
+
+.main2 {
+    font-size: 50%;
+}
+
+#typewriterblock {
+    border: 3px solid #ccc;
+    border-radius: 5%;
+    position: relative;
+    height: 200px;
+    background-color: #aaa;
+    text-align: center;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.myCaption {
+    top: 50%;
+    font-size: 200%;
+}

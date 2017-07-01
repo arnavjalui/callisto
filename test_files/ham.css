@@ -1,0 +1,41 @@
+body {
+    background-color: #AAAAAA;
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+    max-width: 35px;
+    transition: 0.4s;
+}
+
+
+.line {
+    background-color: white;
+    min-height: 2px;
+    display: block;
+    margin: 3px;
+    padding: 1px;
+    border-radius: 25px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.nav:hover div {
+    
+    margin: 5px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: aqua;
+    width: 100%;
+}
+
+.navtext {
+    float: left;
+}
+
+.navline {
+    float: right;
+}
