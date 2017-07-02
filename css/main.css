@@ -43,6 +43,7 @@ html, body {
     text-align: center;
     color: #ccc;
     padding: 10px;
+
 }
 
 .imp {
@@ -66,22 +67,26 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 10px 50px 10px 50px;
-    font-size: 200%
+    font-size: 200%;
+    transition: 0.3s;
 }
 
 nav ul a {
     text-decoration: none;
     color: inherit;
     font-family: El Messiri;
+    transition: 0.3s;
 }
 
 nav ul a:hover {
     text-decoration: none;
     color: inherit;
+    transition: 0.3s;
 }
 
 nav ul li:hover {
     background-color: #325261;
+    transition: 0.3s;
 }
 
 .handle {
@@ -100,15 +105,22 @@ nav ul li:hover {
 
 
 
-.typewriterheading {
+.heading-block {
     text-align: center;
     font-family: El Messiri;
     padding: 40px;
+    box-shadow: 0px 10px 50px #888888;
 }
 
 .hrline {
     border-color: #92c500;
     width: 75%;
+}
+
+.hrline2 {
+    border-color: #92c500;
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -128,6 +140,17 @@ nav ul li:hover {
     background-color: #ffad00;
     text-align: center;
     vertical-align: middle;
+    box-shadow: 10px 10px 50px #888888;
+}
+
+#typewriterblock2 {
+    border: 0.5px solid #fff;
+    position: relative;
+    height: 300px;
+    background-color: #0077cc;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 10px 10px 50px #888888;
 }
 
 
@@ -161,9 +184,27 @@ nav ul li:hover {
     padding-left: 200px;
 }
 
+.textbox h2 {
+    font-size: 110%
+}
+.subtext {
+    font-size: 90%;
+}
+
 ol {
     list-style-position: inside;
+    padding-top: 30px;
 }
+
+
+.progressboxline {
+    text-align: center;
+    margin: 0 auto;
+    color: #00283a;
+    font-family: Bellefair;
+    font-size: 2em;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -213,3 +254,7 @@ ol {
         line-height: 20px; 
     }
 }
+
+
+/*CSS FOR PROGRESS BAR*/
+
