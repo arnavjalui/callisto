@@ -224,6 +224,21 @@ ol {
         display: block;
     }
 
+
+    .site-header {
+    min-height: 250px;
+    background-color: #325261;
+    font-family: Quicksand;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 325%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    position: relative;
+    flex: 0 1 auto;
+    width: 100%;
+}
+
     .halfblock {
         width: 100%;
         position: relative;
