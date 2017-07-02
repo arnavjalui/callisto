@@ -110,6 +110,7 @@ nav ul li:hover {
     font-family: El Messiri;
     padding: 40px;
     box-shadow: 0px 10px 50px #888888;
+    background-color: #FFF;
 }
 
 .hrline {
@@ -213,12 +214,21 @@ iframe {
     display: block;
     width: 1120px;
     height: 630px;
-    /*padding-bottom: 50px;*/
 }
 
 nav a {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+.twblock {
+    background-color: #92c500;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-family: El Messiri;
+    padding: 0px;
+    position: relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -292,8 +302,7 @@ nav a {
         line-height: 20px; 
     }
     iframe {
-        width: 400px;
-        height: 225px;
+        width: 100%;
     }
 
 }
