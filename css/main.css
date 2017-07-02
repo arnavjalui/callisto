@@ -43,6 +43,7 @@ html, body {
     text-align: center;
     color: #ccc;
     padding: 10px;
+    font-size: 130%;
 
 }
 
@@ -175,7 +176,7 @@ nav ul li:hover {
     line-height: 100px; 
 }
 
-.textbox {
+.textbox, .textbox2 {
     text-align: center;
     margin: 0 auto;
     color: #00283a;
@@ -268,6 +269,10 @@ nav a {
         padding-left: 0px;
         padding-right: 25px;
     }
+    .textbox2 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     .quotebox {
         padding-right: 5px;
         padding-left: 5px;
@@ -307,6 +312,20 @@ nav a {
 
 }
 
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .textbox {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .textbox2 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .quotebox {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 1.8em;
+    }
 
-/*CSS FOR PROGRESS BAR*/
+}
 
