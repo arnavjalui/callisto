@@ -31,9 +31,9 @@
             <!-- NAV STARTS -->
             <nav class="nav-bar">
                 <ul>
-                    <a href="#"><li>Link1</li></a>
-                    <a href="#"><li>Link2</li></a>
-                    <a href="#"><li>Link3</li></a>
+                    <a href="#vrstats" id="navlink"><li>VR Statistics</li></a>
+                    <a href="#vradvantages" id="navlink"><li>VR Benefits</li></a>
+                    <a href="#expeditions" id="navlink"><li>Expeditions AR</li></a>
                 </ul>
                 <div class="handle">Menu</div>
             </nav>
@@ -83,7 +83,7 @@
 
 
             <!-- VR INDUSTRY STATS START -->
-            <div class="heading-block">
+            <div class="heading-block" id="vrstats">
                 <hr class="hrline">
                 <h1><strong>Virtual Reality (VR) Industry Statistics</strong></h1>
                 <hr class="hrline">
@@ -114,9 +114,9 @@
             <div class="row">
                 <div class="halfblock left" style="background-color: #ff0000;">
                     <div id="typewriterblock">
-                        <p class="big1">82bn</p>
+                        <p class="big1">6.3m</p>
                         <br>
-                        <p class="small1">No of VR headsets by 2020</p>
+                        <p class="small1">No of VR headsets sold</p>
                     </div>
                 </div>
 
@@ -222,7 +222,7 @@
 
             <!-- ADVANTAGES OF VR STARTS -->
 
-            <div class="heading-block">
+            <div class="heading-block" id="vradvantages">
                 <hr class="hrline">
                 <h1><strong>Advantages of VR in Education</strong></h1>
                 <hr class="hrline">
@@ -285,6 +285,49 @@
 
             <!-- DRAWBACKS OF VR ENDS -->
 
+            <!-- YOUTUBE VIDEO STARTS-->  
+
+            <div class="heading-block" id="expeditions">
+                <hr class="hrline">
+                <h1><strong>Expeditions AR - Bringing the world into the classroom</strong></h1>
+                <hr class="hrline">
+            </div>
+            <div >
+                <iframe src="https://www.youtube.com/embed/-DYqlaMWTVg" frameborder="0" allowfullscreen align="middle"></iframe>
+                <p class="quotebox">The Expeditions AR initiative by Google shows that combination of Virtual Reality with Augmented Reality will go a long way in revolutionizing the current education system.</p>
+            </div>
+
+            <!-- YOUTUBE VIDEO ENDS -->
+
+            <!-- APPLICATIONS OF VR STARTS -->
+
+            <div class="heading-block">
+                <hr class="hrline">
+                <h1><strong>Applications of Virtual Reality</strong></h1>
+                <hr class="hrline">
+            </div>
+
+            <div>
+                <ol>
+                    <li class="textbox">
+                        <p>In medical studies to enable students to know the human body structure.</p>
+                    </li>
+                    <li class="textbox">
+                        <p>In scientific research laboratories so that scientist can easily research on a specific topic.</p>
+                    </li>
+                    <li class="textbox">
+                        <p>In entertaiment like in games and movies to make the gaming experience more real and to allow individual to experience adventures under extreme conditions.</p>
+                    </li>
+                    <li class="textbox">
+                        <p>In driving schools as it give a real look of roads and traffic.</p>
+                    </li>
+                    <li class="textbox">
+                        <p>In military training for the soldiers to get familiar with different areas in the battlefield.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- APPLICATIONS OF VR ENDS -->
 
 
 
@@ -308,6 +351,7 @@
         $('.handle').on('click', function(){
             $('nav ul').toggleClass('showing');
         });
+
     </script>
 </body>
 

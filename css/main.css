@@ -184,6 +184,17 @@ nav ul li:hover {
     padding-left: 200px;
 }
 
+.quotebox {
+    text-align: center;
+    margin: 0 auto;
+    color: #00283a;
+    font-family: Bellefair;
+    font-size: 2em;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
 .textbox h2 {
     font-size: 110%
 }
@@ -196,6 +207,19 @@ ol {
     padding-top: 30px;
 }
 
+
+iframe {
+    margin: 0 auto;
+    display: block;
+    width: 1120px;
+    height: 630px;
+    /*padding-bottom: 50px;*/
+}
+
+nav a {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 @media screen and (max-width: 600px) {
     nav ul {
@@ -213,8 +237,6 @@ ol {
     .handle {
         display: block;
     }
-
-
     .site-header {
     min-height: 250px;
     background-color: #325261;
@@ -227,8 +249,7 @@ ol {
     position: relative;
     flex: 0 1 auto;
     width: 100%;
-}
-
+    }
     .halfblock {
         width: 100%;
         position: relative;
@@ -237,7 +258,10 @@ ol {
         padding-left: 0px;
         padding-right: 25px;
     }
-
+    .quotebox {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
     #typewriterblock {
         border: 0.5px solid #fff;
         position: relative;
@@ -245,19 +269,32 @@ ol {
         background-color: #ffad00;
         text-align: center;
         vertical-align: middle;
+        box-shadow: 10px 10px 50px #888888;
     }
-
+    #typewriterblock2 {
+        border: 0.5px solid #fff;
+        position: relative;
+        height: 200px;
+        background-color: #0077cc;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 10px 10px 50px #888888;
+    }
     .big1 {
     font-size: 3em;
     color: #fff;
     line-height: 130px;
     }
-
     .small1 {
         font-size: 1em;
         color: #fff;
         line-height: 20px; 
     }
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+
 }
 
 
