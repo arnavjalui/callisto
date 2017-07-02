@@ -197,16 +197,6 @@ ol {
 }
 
 
-.progressboxline {
-    text-align: center;
-    margin: 0 auto;
-    color: #00283a;
-    font-family: Bellefair;
-    font-size: 2em;
-}
-
-
-
 @media screen and (max-width: 600px) {
     nav ul {
         max-height: 0px;
@@ -245,7 +235,7 @@ ol {
     }
     .textbox {
         padding-left: 0px;
-        padding-right: 0px;
+        padding-right: 25px;
     }
 
     #typewriterblock {
